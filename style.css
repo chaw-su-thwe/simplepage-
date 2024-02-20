@@ -1,75 +1,37 @@
+/* styles.css */
 body {
-  background-color: #f6c2c2; /* Soft pink background */
-  font-family: "Pacifico", cursive; /* Decorative font */
-  margin: 0;
-  padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-header h1 {
-  font-size: 2em;
-  color: #ff80a0; /* Light pink */
-  margin-bottom: 0;
-}
-
-header p.intro {
-  font-size: 1.2em;
-  color: #8e8e8e; /* Light gray */
-  margin-top: 0;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
 }
 
 section {
-  width: 40%;
-  margin: 10px;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  /* Add background texture (optional): */
-  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAC1HAwCAAAAC0lEQVR4nGNiAAAAAgABGB2Eb6q8AAAABJRU5ErkJggg==");
-}
-
-h2 {
-  font-size: 1.5em;
-  color: #ff80a0; /* Light pink */
-  margin-bottom: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 5px;
+    list-style-type: none;
+    padding: 0;
 }
 
 a {
-  color: #ff80a0; /* Light pink */
-  text-decoration: none;
+    text-decoration: none;
+    color: #007bff;
 }
 
 a:hover {
-  color: #f6c2c2; /* Lighter pink */
-}
-
-footer {
-  text-align: center;
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #f6c2c2; /* Soft pink */
-}
-
-footer p {
-  margin: 0;
+    text-decoration: underline;
 }
